@@ -15,7 +15,7 @@ namespace vbo {
         return buffer;
     }
 
-    inline void deleteBuffer(GLuint buffer) {
+    inline void destroy(GLuint buffer) {
         glDeleteBuffers(1, &buffer);
     }
 
