@@ -1,0 +1,7 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 3.17)
+PROJECT(GLCore)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_library(GLCore INTERFACE)
+target_include_directories(GLCore INTERFACE .)
